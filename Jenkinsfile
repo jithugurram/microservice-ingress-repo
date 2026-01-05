@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB_REPO = 'jithendragurram/studyhub-app'
         K8S_CLUSTER_NAME = 'kastro-cluster'
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'eu-west-2'
         NAMESPACE = 'default'
         APP_NAME = 'studyhub'
     }
